@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.wrapper {
+  padding: 30px;
+  background-color: #ccc;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+.row {
+      position: relative;
+      padding-bottom: 30px;
+    }
+    .errorMess {
+      position: absolute;
+      left: 0;
+      top: 30px;
+      font-size: 12px;
+    }
+    input {
+      display: block;
+      width: 100%;
+      height: 30px;
+      padding: 0 15px;
+      outline: none;
+      border-color: #282828;
+      border-width: 1px;
+      border-style: solid;
+    }
+    .valid {
+      border-color: green;
+    }
+    .invalid {
+      border-color: red;
+    }
+    .valid + span {
+      color: green;
+    }
+    .invalid + span {
+      color: red;
+    }
+    button {
+      display: block;
+      padding: 5px 20px;
+      margin: 0 auto;
+      background-color: #282828;
+      color: #fff;
+      border: 0;
+      outline: none;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
